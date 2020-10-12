@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {View, Text} from 'react-native';
-import { Avatar, TextInput } from 'react-native-paper';
+import { Avatar, TextInput, Button } from 'react-native-paper';
 
 export default class Login extends Component {
 	constructor(props){
@@ -20,6 +20,12 @@ export default class Login extends Component {
 			        value={this.state.nik}
 			        onChangeText={text => this.setState({ nik:text })}
 			    />
+			    <TextInput
+			        label='Password'
+			        value={this.state.pass}
+			        onChangeText={text => this.setState({ pass:text })}
+			    />
+			    <Button mode="contained">Masuk aja</Button>
 		    </View>
 		);
 	}

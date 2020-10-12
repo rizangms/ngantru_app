@@ -9,7 +9,7 @@ export default class Header extends Component {
 		return(
 			<View>
 		        <Appbar.Header>
-			       	<Appbar.Content title="Title" subtitle={'Subtitle'} />
+			       	<Appbar.Content title="Tes" subtitle={'Subtitle'} />
 			        <Appbar.Action icon="magnify" onPress={() => {}} />
 			        <Appbar.Action icon={MORE_ICON} onPress={() => {}} />
 			    </Appbar.Header>
